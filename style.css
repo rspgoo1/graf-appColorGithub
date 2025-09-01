@@ -1,0 +1,58 @@
+/* Fondo degradado perrón */
+body {
+    background: linear-gradient(135deg, #141e30, #243b55);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Título con gradiente */
+  .text-gradient {
+    background: linear-gradient(45deg, #ff4b2b, #ff416c, #00c9ff, #92fe9d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  /* Card con efecto vidrio */
+  .glass-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+  }
+  .glass-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Caja de color */
+  .color-box {
+    width: 100%;
+    height: 180px;
+    border-radius: 16px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    transition: all 0.3s ease;
+  }
+  
+  /* Inputs de color */
+  .picker {
+    cursor: pointer;
+    border: none;
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 2px;
+    transition: transform 0.2s ease;
+  }
+  .picker:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Sliders con degradados */
+  .slider-red {
+    background: linear-gradient(to right, #000, red);
+  }
+  .slider-green {
+    background: linear-gradient(to right, #000, green);
+  }
+  .slider-blue {
+    background: linear-gradient(to right, #000, blue);
+  }
+  
